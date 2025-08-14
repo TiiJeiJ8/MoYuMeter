@@ -1,0 +1,33 @@
+{
+  "name": "moyumeter",
+  "version": "1.0.0",
+  "description": "Whether you’re lost in endless scrolling or deep in meaningful work, MoYuMeter keeps your time honest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiiJeiJ8/MoYuMeter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TiiJeiJ8/MoYuMeter/issues"
+  },
+  "homepage": "https://github.com/TiiJeiJ8/MoYuMeter#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "papaparse": "^5.5.3",
+    "vue": "^3.5.18",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "electron": "^37.2.6",
+    "electron-builder": "^26.0.12",
+    "vite": "latest"
+  }
+}
